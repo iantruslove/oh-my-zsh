@@ -4,3 +4,4 @@ projects.zsh
 *.swp
 cache/
 custom/site/*
+!custom/site/README
