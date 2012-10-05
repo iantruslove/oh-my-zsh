@@ -31,7 +31,8 @@ ZSH_THEME="flazz"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git svn ruby rvm vi-mode history-substring-search autojump)
+plugins=(git svn ruby rvm vi-mode autojump)
+#plugins=(git svn ruby rvm vi-mode history-substring-search autojump) # history-substring-search is causing problems on nsidc
 
 source $ZSH/oh-my-zsh.sh
 
