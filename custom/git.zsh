@@ -1,3 +1,5 @@
+git config --global core.excludesfile $ZSH_CUSTOM/.global_ignore
+
 # Display settings
 git config --global log.decorate short
 git config --global color.ui auto
@@ -6,6 +8,7 @@ git config --global color.diff auto
 git config --global color.branch auto
 git config --global color.status auto
 git config --global pager.status false
+git config --global pager.diff false
 git config --global pager.show-branch true
 git config --global format.numbered auto
 
