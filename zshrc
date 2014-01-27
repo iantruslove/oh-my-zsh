@@ -5,8 +5,8 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="crunch"
-#ZSH_THEME="random" # robbyrussell crunch flazz
+ZSH_THEME="afowler"
+#ZSH_THEME="random" # robbyrussell crunch flazz afowler
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -40,3 +40,5 @@ source $ZSH/oh-my-zsh.sh
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
