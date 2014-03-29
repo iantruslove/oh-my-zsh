@@ -4,3 +4,7 @@ setopt interactivecomments
 set -s escape-time 0
 
 setopt extended_glob
+
+DISABLE_CORRECTION="true"
+unsetopt correct
+unsetopt correct_all
